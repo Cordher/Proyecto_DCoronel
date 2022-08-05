@@ -1,0 +1,86 @@
+.grid{
+    border: 3px solid lightgray;
+    padding: 1rem;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "img1 img2 img2"
+    "img3 img3 img4"
+    "img5 img5 img4";
+    gap: 10px 15px;
+}
+
+.grid1{
+    display: grid;
+    text-align: center;
+}
+
+.grid2{
+    display: grid;
+    height: 100px;
+    width: 100px;
+    grid-template-areas: 
+    "img1 img2 img3 img4";
+    gap: 10px 10px;
+}
+
+.grid_hijo{
+    border: 1px solid orange;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.grid_hijo--1{
+    grid-area: img1;
+}
+
+.grid_hijo--2{
+    grid-area: img2;
+}
+
+.grid_hijo--3{
+    grid-area: img3;
+}
+
+.grid_hijo--4{
+    grid-area: img4;
+}
+
+.grid_hijo--5{
+    grid-area: img5;
+}
+
+.grid_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.grid2_hijo{
+    display: grid;
+}
+
+.grid2_hijo--1{
+    grid-area: img1;
+}
+
+.grid2_hijo--2{
+    grid-area: img2;
+}
+
+.grid2_hijo--3{
+    grid-area: img3;
+}
+
+.grid2_hijo--4{
+    grid-area: img4;
+}
+
+.grid_img1{
+    height: 20px;
+    width: 20px;
+}

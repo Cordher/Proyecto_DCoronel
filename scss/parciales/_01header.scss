@@ -1,0 +1,18 @@
+header {
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+	position: sticky;
+	top: 0px; 
+    block-size: auto;
+    margin: 5px;
+}
+
+.header_icono{
+    font-size: 32px;
+    color:orange;
+    text-decoration: none;
+    display: none;
+}

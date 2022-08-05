@@ -1,0 +1,158 @@
+p{
+    font-style: italic;
+    color: white;
+    font-size: 2rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagen{
+    margin-left: 15px;
+    
+    border-style: solid;
+    width: 500px;
+    height: 350px;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.imagen4{
+    display: none;
+    margin-left: 15px;
+    
+    border-style: solid;
+    width: 500px;
+    height: 350px;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.imagen2{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+h1{
+    font-family:'Fascinate', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size:0;
+    color: white;
+ }
+
+ li {
+    display: inline-block;
+    width: 20%;
+    position:relative;
+ }
+
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+
+ ul ul li {
+    display: block;
+ }
+
+ ul li:hover ul {
+    display:block;
+ }
+
+h4{
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+div{
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+table{
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-style: solid;
+}
+
+.card{
+    background-color:gray;
+    color: white;
+    width: 350px;
+    height: 550px;
+    padding:20px ;
+    margin:30px ;
+    border: 5px;
+    border: solid;
+    border-color:yellow;
+}
+
+.card1{
+    background-color: lightblack;
+    color: white;
+    width: 25%;
+    height: 550px;
+    padding:20px ;
+    margin:30px ;
+    border: 5px;
+    border: solid;
+    border-color:yellow;
+}
+
+.card2{
+    width: 10px;
+    height: 10px;
+    padding-left: 40px;
+}
+
+.section{
+    padding-left: 700px;
+}
+
+.section1{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.imagen1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav1{
+
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+a{
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+}

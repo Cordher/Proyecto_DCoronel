@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: sans-serif; }
+
+header {
+  background-image: url(../imagenes/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0px;
+  block-size: 5cm;
+  margin: 5px;
+  z-index: 10; }
+  header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-right: 1px solid white; }
+    header label:hover {
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.3); }
+
+#btn-menu {
+  display: none; }
+
+.menu {
+  background-color: red;
+  height: 30px; }
+  .menu ul {
+    background-color: red;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; }
+  .menu li {
+    border-right: 1px solid white; }
+    .menu li:hover {
+      background: rgba(0, 0, 0, 0.3); }
+    .menu li a {
+      font-size: small;
+      display: block;
+      padding: 5px 20px;
+      color: white;
+      text-decoration: none; }
+
+.imagen1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px; }
+
+main {
+  background-image: linear-gradient(to right, grey, black);
+  block-size: auto;
+  padding: 20px;
+  block-size: auto;
+  margin: 5px; }
+
+footer {
+  margin: 5px;
+  font-size: medium;
+  block-size: auto;
+  background-image: linear-gradient(to right, yellow, red);
+  padding-top: 30px;
+  padding-left: 100px; }
+
+@keyframes anim {
+  0% {
+    opacity: 1;
+    color: red; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    color: red; } }
+
+.texto1 {
+  animation: anim;
+  animation-duration: 4s;
+  animation-iteration-count: 5; }
+
+@keyframes anim1 {
+  0% {
+    opacity: 0;
+    color: blue; }
+  50% {
+    opacity: 1;
+    color: white; }
+  100% {
+    opacity: 0;
+    color: blue; } }
+
+.texto2 {
+  animation: anim1;
+  animation-duration: 4s;
+  animation-iteration-count: 5; }
+
+p {
+  font-style: italic;
+  color: white;
+  font-size: 2rem;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.imagen2 {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px; }
+
+.imagen10 {
+  width: 250px;
+  height: 150px; }
+
+h1 {
+  font-family: 'Fascinate', cursive;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+h4 {
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px; }
+
+div {
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.card {
+  background-color: gray;
+  color: white;
+  width: 350px;
+  height: 550px;
+  padding: 20px;
+  margin: 30px;
+  border: 5px;
+  border: solid;
+  border-color: yellow; }
+
+.card1 {
+  background-color: lightblack;
+  color: white;
+  width: 650px;
+  height: 550px;
+  padding: 10px;
+  margin: 10px;
+  border: 5px;
+  border: solid;
+  border-color: yellow; }
+
+/*Medias Querys*/
+/*Tablet*/
+@media screen and (max-width: 1023px) {
+  .imagen {
+    border-style: solid;
+    width: 400px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box; }
+  .card {
+    background-color: lightblack;
+    color: white;
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    border: solid;
+    border-color: yellow; } }
+
+/*Movil*/
+@media screen and (max-width: 599px) {
+  header label {
+    display: block; }
+  .menu {
+    position: absolute;
+    background: red;
+    width: 70%;
+    margin-left: -80%;
+    transition: all 0.5s; }
+    .menu ul {
+      flex-direction: column; }
+    .menu li {
+      border-top: 1px solid white; }
+  #btn-menu:checked ~ .menu {
+    margin: 0; }
+  .card {
+    background-color: lightblack;
+    color: white;
+    width: 90%;
+    height: 450px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    border: solid;
+    border-color: yellow; }
+  .card1 {
+    background-color: lightblack;
+    color: white;
+    width: 90%;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    border: solid;
+    border-color: yellow; }
+  .imagen {
+    border-style: solid 2px black;
+    width: 250px;
+    height: 175px; }
+  .imagen10 {
+    width: 90%;
+    height: 150px; } }

@@ -1,0 +1,88 @@
+/*Medias Querys*/
+
+
+    /*Tablet*/
+    @media screen and (max-width: 1023px) {
+        .imagen {
+            border-style: solid;
+            width: 400px;
+            height: 250px;
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        .card {
+            background-color: lightblack;
+            color: white;
+            width: 500px;
+            height: 550px;
+            padding: 10px;
+            margin: 10px;
+            border: 5px;
+            border: solid;
+            border-color: yellow;
+        }
+    }
+
+    /*Movil*/
+    @media screen and (max-width:599px) {
+        header {
+            label {
+                display: block;
+            }
+        }
+        .menu {
+            position: absolute;
+            background: red;
+            width: 70%;
+            margin-left: -80%;
+            transition: all 0.5s;
+            ul {
+                flex-direction: column;
+            }
+            li {
+                border-top: 1px solid white;
+            }
+        }
+        #btn-menu {
+            &:checked {
+                ~ {
+                    .menu {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .card {
+            background-color: lightblack;
+            color: white;
+            width: 90%;
+            height: 450px;
+            padding: 10px;
+            margin: 10px;
+            border: 5px;
+            border: solid;
+            border-color: yellow;
+        }
+        .card1 {
+            background-color: lightblack;
+            color: white;
+            width: 90%;
+            height: 550px;
+            padding: 10px;
+            margin: 10px;
+            border: 5px;
+            border: solid;
+            border-color: yellow;
+        }
+        .imagen {
+            border-style: solid 2px black;
+            width: 250px;
+            height: 175px;
+        }
+        .imagen10 {
+            width: 90%;
+            height: 150px;
+        }
+    }
+    
